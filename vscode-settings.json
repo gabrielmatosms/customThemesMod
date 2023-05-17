@@ -1,0 +1,35 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'IBM Plex Mono','Fira Code','Cascadia Code', 'Consolas' ",
+  "editor.fontLigatures": "'calt', 'ss01'",
+  "workbench.startupEditor": "none",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 3,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 25,
+  "editor.fontWeight": 445,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "git.openRepositoryInParentFolders": "never",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "editor.tokenColorCustomizations": {
+    "[Community Material Theme Darker High Contrast]": {
+      "comments": "#ccfaff77",
+      "variables": "#f86b6b",
+      "keywords": "#d689fc",
+      "functions": "#88b2ff",
+      "numbers": "#ff9900"
+    }
+  }
+}
