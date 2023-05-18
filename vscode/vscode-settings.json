@@ -15,6 +15,7 @@
   "explorer.confirmDelete": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "git.openRepositoryInParentFolders": "never",
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDragAndDrop": false,
@@ -22,14 +23,15 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "editor.tokenColorCustomizations": {
-    "[Community Material Theme Darker High Contrast]": {
-      "comments": "#ccfaff77",
+    "[One Dark Pro Darker]": {
+      "comments": "#a2f6ff77",
       "variables": "#f86b6b",
       "keywords": "#d794f8",
-      "functions": "#88b0fc",
-      "numbers": "#ff9900"
+      "functions": "#83c9fb",
+      "numbers": "#ff9900",
+      "strings": "#79c47d"
     }
   }
 }
