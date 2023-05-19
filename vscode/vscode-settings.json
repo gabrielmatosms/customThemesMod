@@ -1,7 +1,7 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "'IBM Plex Mono','Fira Code','Cascadia Code', 'Consolas' ",
+  "editor.fontFamily": "'Fira Code Retina','Cascadia Code', 'Consolas' ",
   "editor.fontLigatures": "'calt', 'ss01'",
   "workbench.startupEditor": "none",
   "editor.cursorBlinking": "expand",
@@ -9,7 +9,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontSize": 16,
   "editor.lineHeight": 25,
-  "editor.fontWeight": 445,
+  "editor.fontWeight": 400,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "explorer.confirmDelete": false,
@@ -20,12 +20,16 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDragAndDrop": false,
   "workbench.productIconTheme": "fluent-icons",
+  "terminal.integrated.fontFamily": "Fira Code Retina",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.fontSize": 14,
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "Horizon Extended",
   "editor.tokenColorCustomizations": {
-    "[One Dark Pro Darker]": {
+    "[Horizon Extended]": {
       "comments": "#a2f6ff77",
       "variables": "#f86b6b",
       "keywords": "#d794f8",
