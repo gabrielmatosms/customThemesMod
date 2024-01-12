@@ -1,35 +1,60 @@
 {
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.8,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [80, 120],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.iconTheme": "icons",
-  "editor.fontFamily": "'Fira Code Retina','Cascadia Code', 'Consolas' ",
+  "workbench.iconTheme": "symbols",
+  "workbench.editor.labelFormat": "short",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "'JetBrains Mono','Fira Code Retina','Cascadia Code', 'Consolas' ",
   "editor.fontLigatures": "'calt', 'ss01'",
-  "workbench.startupEditor": "none",
   "editor.cursorBlinking": "expand",
   "editor.cursorWidth": 3,
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 25,
   "editor.fontWeight": 400,
   "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
   "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "git.openRepositoryInParentFolders": "never",
   "liveServer.settings.donotShowInfoMsg": true,
-  "explorer.confirmDragAndDrop": false,
   "workbench.productIconTheme": "fluent-icons",
-  "terminal.integrated.fontFamily": "Fira Code Retina",
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontSize": 14,
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
   "editor.tokenColorCustomizations": {
     "[Default Dark Modern]": {
-      "comments": "#a2f6ff77",
+      "comments": "#d8fbff7b",
       "variables": "#f86b6b",
       "keywords": "#d794f8",
       "functions": "#76c6ff",
@@ -37,5 +62,9 @@
       "strings": "#aadb8e"
     }
   },
-  "terminal.integrated.env.osx": {}
+  "terminal.integrated.env.osx": {},
+  "workbench.colorTheme": "Min Dark",
+  "symbols.hidesExplorerArrows": false,
+  "console-ninja.featureSet": "Community",
+  "window.commandCenter": false
 }
