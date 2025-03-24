@@ -19,7 +19,7 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "terminal.integrated.showExitAlert": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "explorer.compactFolders": false,
@@ -27,7 +27,9 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
   "editor.fontFamily": "'JetBrains Mono','Fira Code Retina','Cascadia Code', 'Consolas' ",
   "editor.fontLigatures": "'calt', 'ss01'",
   "editor.cursorBlinking": "expand",
@@ -35,11 +37,10 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontWeight": 400,
   "editor.tabSize": 2,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": "true"
+  // },
   "editor.wordWrap": "on",
-  "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -66,5 +67,23 @@
   "workbench.colorTheme": "Min Dark",
   "symbols.hidesExplorerArrows": false,
   "console-ninja.featureSet": "Community",
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "editor.stickyTabStops": true,
+  "editor.stickyScroll.maxLineCount": 10,
+  "notebook.stickyScroll.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "chatgpt.lang": "en",
+  "redhat.telemetry.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "vscode_custom_css.imports": [
+    "file:///Users/gabrielmatos/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "workbench.activityBar.location": "top",
+  "editor.minimap.maxColumn": 100,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.preferredDarkColorTheme": "Min Dark",
+  "workbench.tree.indent": 12
 }
